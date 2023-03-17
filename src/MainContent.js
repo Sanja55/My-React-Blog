@@ -9,7 +9,7 @@ export const MainContent = () => {
     },
 
     {
-      title: "Rockicide by Milennia Nova feat Iggy Pop",
+      title: "Rockicide by Millenia Nova feat Iggy Pop",
       lyrics: "Hollywood blow, fly like crows, Shit's gonna rock anywhere you go, take it to the bank, The Battleship sank, Shit's gonna rock, Man I don't mock! Over the Stars, in the ugly cars. Over Police - Rabbis And Priests. Over Berlin - let it begin. Shit's Gonna Rock, I do not mock!"
     },
 
@@ -42,7 +42,7 @@ export const MainContent = () => {
         {contentItems.map((item) => (
             
             <div className="item">
-                <h4>{item.title}</h4>
+                <h2>{item.title}</h2>
                 <p>{item.lyrics}</p>
             </div>
         
